@@ -1,3 +1,6 @@
+# Multilingual Nonce Dependency Treebanks: Understanding how Language Models Represent and Process Syntactic Structure
+
+Code for the paper [Multilingual Nonce Dependency Treebanks: Understanding how Language Models Represent and Process Syntactic Structure](https://arxiv.org/abs/2311.07497) (NAACL 2024) by David Arps, Laura Kallmeyer, Younes Samih, and Hassan Sajjad.
 
 ### Environment
 
@@ -94,3 +97,21 @@ This step is necessary to precompile all morphological dictionaries, which signi
 
 Check `build_spud.ipynb` for instructions on how to run it for an existing treebank, and how to extend it to a new one! 
 
+## Reference
+
+If you use this data or code, please cite the following paper:
+
+```
+@article{arps-etal-2024-multilingual,
+    title = "Multilingual Nonce Dependency Treebanks: Understanding how Language Models represent and process syntactic structure",
+    author = "Arps, David  and
+      Kallmeyer, Laura  and
+      Samih, Younes  and
+      Sajjad, Hassan",
+    booktitle = "Proceedings of the 2024 Conference of the North American Chapter of the Association for Computational Linguistics",
+    month = jun,
+    year = "2024",
+    address = "Mexico City, Mexico",
+    publisher = "Association for Computational Linguistics",
+}
+```
