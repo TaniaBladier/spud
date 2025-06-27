@@ -85,9 +85,10 @@ def parallel_replacement(lang=None, sents=None, trees=None, morphdict=None, synt
         md = copy.deepcopy(morphdict)
         up_f = copy.deepcopy(upos_filter)
         rph = ReplacerProcessHelper(lang, pats, md, upos_filter=up_f)
+        print('88')
  
         p = Process(target=rph.fwd, args=(sents[start:end], trees[start:end], i))
-
+        print('90')
         processes.append(p)
         p.start()
         start = end
